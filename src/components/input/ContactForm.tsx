@@ -1,5 +1,5 @@
 import React, { FormEvent, useEffect, useReducer, useState } from "react";
-import Toast from "../ui/toast";
+import Toast from "../ui/Toast";
 
 const mailRegex = /^([A-Za-z])+([._-]?\w+)+@([A-Za-z])+([._-]?\w+)+\.\w+$/;
 const inputReducerInitial = {
